@@ -57,6 +57,8 @@ exit (1);
 initscr();
 w_pic=newwin(20,80,0,0);
 w_lba=newwin(4,80,21,0);
+scrollok (w_pic,TRUE);
+scrollok (w_lba,TRUE);
 wmove (w_pic,0,0);
 wmove (w_lba,0,0);
 
